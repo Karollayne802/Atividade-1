@@ -7,6 +7,8 @@ Essa atividade resolve o problema de encontrar números menores que um valor inf
 
 Após encontrar esse números, ele realiza a soma de todos eles.
 
+---
+
 ## Caminhos na Rede
 
 ## 📌Descrição:
@@ -19,6 +21,7 @@ O movimento permitido é apenas:
 
 O objetivo é descobrir quantas combinações de movimentos diferentes existem para chegar ao destino.
 
+---
 
 ## Numero primo 
 
@@ -26,3 +29,17 @@ O objetivo é descobrir quantas combinações de movimentos diferentes existem p
 Essa atividade tem como objetivo encontrar o **n-ésimo número primo**.
 
 O programa verifica quais números são primos e conta a quantidade encontrada até chegar na posição desejada. Ao final, retorna o número primo correspondente.
+
+---
+
+## Maior Produto Palíndromo
+
+## 📌 Descrição:
+Essa atividade tem como objetivo encontrar o maior número palíndromo formado pelo produto de dois números com `n` dígitos.
+
+---
+
+ Menor Múltiplo
+
+## 📌 Descrição:
+Essa atividade tem como objetivo encontrar o menor número positivo que seja divisível por todos os números de `1` até `n`, sem deixar resto.
