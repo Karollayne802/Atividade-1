@@ -39,7 +39,7 @@ Essa atividade tem como objetivo encontrar o maior número palíndromo formado p
 
 ---
 
- Menor Múltiplo
+## Menor Múltiplo
 
 ## 📌 Descrição:
 Essa atividade tem como objetivo encontrar o menor número positivo que seja divisível por todos os números de `1` até `n`, sem deixar resto.
