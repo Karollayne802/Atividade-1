@@ -1,0 +1,31 @@
+function largestPalindromeProduct(n) {
+ // Ele vai guardar o maior palindrome encontrado
+ let maior = 0;
+ 
+ // Menor numero 
+ let inicio = Math.pow(10, n - 1);
+
+ // Maior numero 
+ let fim = Math.pow(10, n) - 1;
+
+ // vai percorrer do maior para o menor 
+ for (let i= fim; i >= inicio; i--) {
+
+    // Percorrer para calcular 
+    for (let j = i; j >= inicio; j--){
+        let produto = i *j;
+
+        let texto = produto.toString();
+        let invertido = texto.split('').reverse().join('');
+
+        //Vai verificar se é um polindromo e
+        // se ele é o maor numero encontrado 
+        if (texto === invertido && produto > maior) {
+            maior = produto;
+        }
+    }
+ }
+ return maior ;
+}
+console.log(largestPalindromeProduct(2)); 
+console.log(largestPalindromeProduct(3)); 
